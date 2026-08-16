@@ -1,0 +1,21 @@
+-- Verification run: python3 generate_data.py, then row-count checks below
+-- Command used (via Python sqlite3 module / equivalent to `sqlite3 swiggy_capstone.db`):
+--   SELECT COUNT(*) FROM restaurants;
+--   SELECT COUNT(*) FROM customers;
+--   SELECT COUNT(*) FROM orders;
+--   SELECT COUNT(*) FROM cuisine_targets;
+--   SELECT status, COUNT(*) FROM orders GROUP BY status;
+
+restaurants       : 15
+customers         : 50
+orders            : 420
+cuisine_targets   : 6
+
+orders by status:
+Cancelled : 35
+Delivered : 358
+Pending   : 27
+
+-- All counts match the brief's required acceptance criteria:
+-- exactly 15 restaurants, 50 customers, 420 orders, 6 cuisine_targets rows,
+-- with orders.status split across Delivered, Cancelled, and Pending.
