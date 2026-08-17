@@ -45,7 +45,7 @@ table, a `Pivot` sheet, and a `Cuisine Summary` sheet with VLOOKUP, variance/per
 formulas, nested-IF tiering, and the Part A reconciliation column.
 
 ## Live Tableau Public Dashboard
-**[PASTE YOUR LIVE TABLEAU PUBLIC URL HERE]**
+https://public.tableau.com/views/SwiggyCuisinePerformanceDiagnostic_17869485236650/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 ## Data Story
 See [DATA_STORY.md](./DATA_STORY.md) for the full interpretation of which cuisines are above/below
